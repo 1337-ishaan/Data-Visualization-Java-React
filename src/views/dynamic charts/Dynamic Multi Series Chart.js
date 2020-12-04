@@ -34,8 +34,14 @@ class DynamicMultiSeriesChart extends Component {
 			  y: yValue2
 			});
 		}
-		this.chart.options.data[0].legendText = " Bugatti Veyron - " + yValue1 + " km/h";
-		this.chart.options.data[1].legendText = " Lamborghini Aventador - " + yValue2 + " km/h";
+		
+		
+	// {options && 
+	// 	<>
+	// 	this.chart.options.data[0].legendText = " Bugatti Veyron - " + yValue1 + " km/h";
+	// 	this.chart.options.data[1].legendText = " Lamborghini Aventador - " + yValue2 + " km/h";
+	// 	</>
+	// }	
 		this.chart.render();
 	}
 	render() {
